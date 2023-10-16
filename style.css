@@ -1,3 +1,10 @@
+
+.logo-name-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Reset some default browser styles */
 body, h1, h2, h3, p {
     margin: 0;
