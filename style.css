@@ -1,11 +1,11 @@
-
 .logo-name-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-/* Reset some default browser styles */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -18,16 +18,21 @@ body {
 }
 
 header {
-    display: flex !important;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 20px 5%;
-    background-color: #2e2c2cb9;
+    background-color: #595151b9;
     color: #fff;
 }
 
 header .logo img {
     max-width: 150px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
 }
 
 nav a {
@@ -46,6 +51,7 @@ nav a:hover {
     text-align: center;
     padding: 100px 0;
 }
+
 
 .services, .tracking, .contact {
     padding: 50px 5%;
